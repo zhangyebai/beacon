@@ -1,0 +1,29 @@
+{
+  "properties": [
+    {
+      "name": "app.id",
+      "type": "java.lang.String",
+      "description": "apollo application unique id."
+    },
+    {
+      "name": "apollo.meta",
+      "type": "java.lang.String",
+      "description": "apollo config server host."
+    },
+    {
+      "name": "apollo.bootstrap.namespaces",
+      "type": "java.lang.String",
+      "description": "apollo config namespace name."
+    },
+    {
+      "name": "apollo.bootstrap.enabled",
+      "type": "java.lang.Boolean",
+      "description": "apollo config load at application boot strap stage."
+    },
+    {
+      "name": "apollo.bootstrap.eagerLoad.enabled",
+      "type": "java.lang.Boolean",
+      "description": "apollo config load at eager mode."
+    }
+  ]
+}

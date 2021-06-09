@@ -1,0 +1,37 @@
+.idea/
+.idea/*
+*/target
+*.iml
+build/
+#eclipse
+.settings/
+# log
+log.txt
+##class file##
+*.com  
+*.class  
+*.dll  
+*.exe  
+*.o  
+*.so 
+*.log
+.checkstyle
+.project
+.classpath
+# compression file
+*.7z  
+*.dmg  
+*.gz  
+*.iso  
+*.jar  
+*.rar  
+*.tar  
+*.zip  
+*.via
+*.tmp
+*.err
+
+target
+
+
+.DS_store

@@ -1,0 +1,73 @@
+app:
+  id: 145610716999589888
+apollo:
+  meta: http:127.0.0.1:8080
+  bootstrap:
+    namespaces: application
+    enabled: true
+    eagerLoad:
+      enabled: true
+
+#spring:
+#  application:
+#    name: beacon
+#  cloud:
+#    loadbalancer:
+#      enabled: true
+#
+#
+#    gateway:
+#      httpclient:
+#        connect-timeout: 5000
+##        response-timeout: 10S
+#      discovery:
+#        locator:
+#          enabled: true
+#          lower-case-service-id: true # keep it false when we use eureka
+#      routes:
+#        - id: toc-route
+#          uri: lb://toc
+#          predicates:
+#            - Path=/api/toc/**
+#          filters:
+#            - StripPrefix=1
+#logging:
+#  level:
+#    org.springframework.cloud.gateway: TRACE
+#    org.springframework.http.server.reactive: DEBUG
+#    org.springframework.web.reactive: DEBUG
+#    reactor.ipc.netty: DEBUG
+#    reactor.netty: DEBUG
+#
+#eureka:
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true # use eureka for fetch other services, it doesnt has to register on eureka
+#    service-url:
+#      defaultZone: #http://127.0.0.1:8761/eureka/
+#  instance:
+#    prefer-ip-address: true
+
+#feign:
+#  client:
+#    config:
+#      default:
+#        connectTimeout: 3000
+#        readTimeout: 7000
+#  compression:
+#    request:
+#      enabled: false
+#      mime-types: text/xml,application/xml,application/json
+#      min-request-size: 204800
+#    response:
+#      enabled: false
+#  httpclient:
+#    enabled: false
+#    max-connections: 200
+#    max-connections-per-route: 50
+#    time-to-live: 600
+#    time-to-live-unit: seconds
+#  okhttp:
+#    enabled: true
+
+
