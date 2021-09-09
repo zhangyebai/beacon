@@ -29,5 +29,5 @@ public interface TokenClient {
      * @date 2021/6/9 5:20 PM
      **/
     @PostMapping(value = "/token/verification")
-    TokenPo findTokenPayload(TokenDto dto);
+    TokenPo findTokenPayload(@RequestBody TokenDto dto);
 }
